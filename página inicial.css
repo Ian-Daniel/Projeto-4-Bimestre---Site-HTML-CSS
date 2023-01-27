@@ -10,7 +10,7 @@ header{
     color:#ffffff;
     display:flex;
 }
-
+z
 header h1{
     margin: 0;
     padding:20px;
@@ -31,3 +31,20 @@ div.sigla{
     list-style: none;
     margin: 5px;
 }
+
+div.produtos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+ }
+ 
+ div.produtos img:hover{
+     transform: translateY(-5px); 
+     cursor: pointer;
+ }
+ 
+ div.iten img{
+     width: 200px;
+     height: auto;
+ }
